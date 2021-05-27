@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar {
+    background-color: #20457C;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: px, px;
+    color: white;
+
+    padding-right: 16px;
+    /* padding: 8px 7px; */
+}
+#itc{
+    font-size:20px ;
+    padding-right: 50px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar  a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0px 8px;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #c6d6d0;
+    color: rgb(2, 0, 0);
+
+}
+.content{
+    padding: 5px 25px;
+    padding-block-end: 80px;
+    background-color: #ecdfbd;
+    margin-block-start: 30px;
+    height: 100%;
+}
+
+.foot li {
+    list-style: none;
+    float: left;
+    margin: auto;
+    padding-right: 10px;
+}
+
+.foot ul {
+    overflow: auto;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.foot {
+    text-align: center;
+    background-color: rgb(223, 213, 210);
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 24px;
+    padding: 8px;
+}
+
+.foot a {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 5px;
+    color: #b14a4a;
+    font-size: 20px;
+    float: center;
+}
+
+.example div {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(83, 69, 122);
+    color: rgb(215, 212, 228);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
